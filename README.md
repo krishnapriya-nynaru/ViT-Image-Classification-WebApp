@@ -14,16 +14,6 @@ The ViT model has shown excellent performance on the ImageNet dataset, which con
 **Classification Head:** The output from the Transformer encoders is fed into a classification head that predicts the class of the object in the image. ViT's capacity to classify images into 1,000 distinct categories demonstrates its versatility and effectiveness in handling diverse visual data.
 
 ### Model Overview
-
-- **Model Type:** Image classification using Vision Transformer (ViT).
-- **Input Resolution:** 224x224 pixels for the base model.
-- **Checkpoint:** Pretrained on ImageNet (1k or 21k datasets).
-- **Number of Parameters:** 86.6 million (ViT-B/16 model).
-- **Model Size:** 330 MB (ViT-B/16).
-- **Patch Size:** 16x16 pixels per patch for standard configuration.
-- **Pretraining:** Large-scale pretraining on ImageNet-21k for enhanced performance.
-- **Self-Attention:** Global self-attention used ins
-
 - **Model Type:** Image classification using Vision Transformer (ViT).
 - **Input Resolution:** 224x224 pixels for the base model.
 - **Checkpoint:** Pretrained on ImageNet (1k or 21k datasets).
