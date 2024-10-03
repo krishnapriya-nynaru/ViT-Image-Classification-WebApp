@@ -71,3 +71,6 @@ Below are some results of developed Application on test videos:-
 
 ![alt text](https://github.com/krishnapriya-nynaru/ViT-Image-Classification-WebApp/blob/main/ViT-Image-Classification/outputs/result1.png) 
 ![alt text](https://github.com/krishnapriya-nynaru/ViT-Image-Classification-WebApp/blob/main/ViT-Image-Classification/outputs/result2.png) 
+
+### References
+https://arxiv.org/pdf/2010.11929
