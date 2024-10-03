@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.content {
+    display: flex; /* Use flexbox for side-by-side layout */
+}
+
+.sidebar {
+    width: 30%; /* Fixed width for sidebar */
+    padding: 20px;
+    background-color: #f4f7fc;
+    border-right: 1px solid #ddd; /* Right border */
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.sidebar div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eef2f8;
+    border-radius: 5px;
+}
+
+.main-content {
+    width: 70%; /* Fixed width for main content */
+    padding: 20px;
+    text-align: center; /* Center content in main area */
+}
+
+.highlight {
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #00bfff; /* Darker blue text */
+    font-weight: bold; /* Bold text */
+    padding: 10px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the highlighted area */
+}
+
+h2 {
+    margin-bottom: 5px;
+    text-align: left; /* Ensure the text aligns to the left */
+    margin-left: 0; /* Remove any automatic margin */
+    padding-left: 0; /* Ensure no padding on the left */
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+    display: block;  /* Ensure it is displayed as a block element */
+    margin-left: 0;  /* Make sure there is no margin on the left */
+    text-align: left; /* Align text to the left */
+    width: auto;     /* Set width to automatic or desired size */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column; /* Stack content vertically on small screens */
+    }
+    
+    .sidebar {
+        width: 100%; /* Full width on small screens */
+        border-right: none; /* Remove right border */
+        border-bottom: 1px solid #ddd; /* Add bottom border */
+    }
+    
+    .main-content {
+        width: 100%; /* Full width on small screens */
+    }
+}
