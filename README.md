@@ -30,7 +30,7 @@ The ViT model has shown excellent performance on the ImageNet dataset, which con
 - `Ubuntu 20.04`
 - `Anaconda`
 
-### Step1: Installing Conda on WSL2.
+### Installing Conda on WSL2.
 
 To install Conda on WSL2, follow the link : [***here***](https://thesecmaster.com/step-by-step-guide-to-install-conda-on-ubuntu-linux/)
 
@@ -61,3 +61,12 @@ To install Conda on WSL2, follow the link : [***here***](https://thesecmaster.co
 6. To run the image classification web app:
     ```bash
     ubuntu@user:python app.py
+7. Open the Web App: Open the URL http://127.0.0.1:5000 in any web browser.
+8. Click on "Choose File" and select the video file. Once the video is uploaded, click on "Run Inference."
+9. The inference parameters and the output predicted class, along with confidence levels, will be displayed in the sidebar.
+
+## Results
+Below are some results of developed Application on test videos:-
+
+
+![alt text](https://github.com/krishnapriya-nynaru/ViT-Image-Classification-WebApp/blob/main/ViT-Image-Classification/outputs/results.png) 
