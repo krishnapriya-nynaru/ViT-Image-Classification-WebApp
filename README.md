@@ -69,4 +69,5 @@ To install Conda on WSL2, follow the link : [***here***](https://thesecmaster.co
 Below are some results of developed Application on test videos:-
 
 
-![alt text](https://github.com/krishnapriya-nynaru/ViT-Image-Classification-WebApp/blob/main/ViT-Image-Classification/outputs/results.png) 
+![alt text](https://github.com/krishnapriya-nynaru/ViT-Image-Classification-WebApp/blob/main/ViT-Image-Classification/outputs/result1.png) 
+![alt text](https://github.com/krishnapriya-nynaru/ViT-Image-Classification-WebApp/blob/main/ViT-Image-Classification/outputs/result2.png) 
